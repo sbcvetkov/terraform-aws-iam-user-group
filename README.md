@@ -6,6 +6,10 @@ __NOTE__: So far you must use this in conjunction with the module "trussworks/mf
 
 __Philosophical note__: these groups should map 1:1 to IAM roles defined in your Terraform files. These should be defined in a separate module that could be reused in different accounts across your AWS org. So you may have multiple allowed roles with the same name across your accounts as a variable.
 
+## Terraform Versions
+
+Terraform 0.12. Pin module version to ~> 1.X. Submit pull-requests to terraform011 branch.
+
 ## Usage
 
 ```hcl
